@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jboss PUBLIC
+      "-//JBoss//DTD JBOSS 6.0//EN"
+      "http://www.jboss.org/j2ee/dtd/jboss_6_0.dtd">
+<jboss>
+    <enterprise-beans>
+        <session>
+            <ejb-name>tbl_accountSessionBean</ejb-name>
+            <jndi-name>account_remote</jndi-name>
+            <local-jndi-name>account_local</local-jndi-name>
+        </session>
+        
+        <session>
+            <ejb-name>tbl_orderSessionBean</ejb-name>
+            <jndi-name>order_remote</jndi-name>
+            <local-jndi-name>order_local</local-jndi-name>
+        </session>
+        
+        <session>
+            <ejb-name>tbl_orderDetailSessionBean</ejb-name>
+            <jndi-name>detail_remote</jndi-name>
+            <local-jndi-name>detail_local</local-jndi-name>
+        </session>
+        
+        <session>
+            <ejb-name>tbl_productSessionBean</ejb-name>
+            <jndi-name>product_remote</jndi-name>
+            <local-jndi-name>product_local</local-jndi-name>
+        </session>
+    </enterprise-beans>
+</jboss>

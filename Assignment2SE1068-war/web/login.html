@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <h1>Login Page</h1>
+        <form action="ProcessServlet" method="POST">
+            <p>Username <input type="text" name="txtUsername" value="" required/></p>
+            <p>Password <input type="password" name="txtPassword" value="" required/></p>
+            <input type="submit" value="Login" name="btnAction"/>
+            <input type="reset" value="Reset" />
+        </form>
+        <a href="register.jsp">Create new account</a>
+    </body>
+</html>
